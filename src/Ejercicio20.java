@@ -1,6 +1,9 @@
 import java.util.HashMap;
 import java.util.Scanner;
-
+// Ejercicio basado en la parte de cadenas de caracteres y su conbinacion con
+    // vectores en el libro de Fundamentos de Programacion del Ing.Marcelo
+    // Villalobos.
+    //Dado una frase ingresa la cantidad de veces que aparece cada palabra usando vectores.
 public class Ejercicio20 {
 
     public static void LecturaImpresion() {
