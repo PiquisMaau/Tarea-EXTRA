@@ -82,7 +82,7 @@ public class Ejercicio15 {
         int[] mayores = new int[matriz[0].length];
 
         for (int j = 0; j < matriz[0].length; j++) {
-            mayores[j] = matriz[matriz.length - 1][j]; // Último elemento de la columna, ya ordenada
+            mayores[j] = matriz[matriz.length - 1][j]; 
         }
 
         return mayores;
