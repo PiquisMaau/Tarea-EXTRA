@@ -11,16 +11,16 @@ public class Ejercicio10 {
     //
 
     public static void LecturaeImpresion() {
-        Scanner scanner = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
         int[] numeros = new int[7];
         System.out.println("=========== Lectura de DATOS ============");
         System.out.println("Ingresa 7 números:");
         for (int i = 0; i < 7; i++) {
-            numeros[i] = scanner.nextInt();
+            numeros[i] = teclado.nextInt();
         }
 
         System.out.print("Ingrese el número por buscar: ");
-        int numeroBuscado = scanner.nextInt();
+        int numeroBuscado = teclado.nextInt();
 
         int[] posiciones = buscarNumero(numeros, numeroBuscado);
         boolean encontrado = posiciones.length > 0;
